@@ -1,3 +1,14 @@
+body {
+  background-color: #3c3838;
+}
+
 .title {
+  font-family: Verdana, sans-serif;
+  color: yellow;
+}
+
+.description, h3, h4, ol, ul {
+  background-color: #272525;
+  color: #deddda;
   font-family: Verdana, sans-serif;
 }
