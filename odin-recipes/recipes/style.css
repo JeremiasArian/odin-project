@@ -3,18 +3,36 @@ body {
 }
 
 .title {
+  padding: 5px;
   font-family: Verdana, sans-serif;
   color: yellow;
+  background-color: black;
+  font-size: 28px;
 }
 
-.description, h3, h4, ol, ul {
+.recipe-source {
+  background-color: black;
+  padding: 5px;
+  border: 5px solid #000;
+  color: white;
+}
+
+.description {
   background-color: #272525;
   color: #deddda;
   font-family: Verdana, sans-serif;
 }
 
+.recipe {
+  color: black;
+  background-color: #c1bdbd;
+  box-sizing: border-box;
+  width: 400px;
+  border: 2px solid black;
+  margin-left: 20px;
+}
+
 .pizza-image {
+  margin-top: 20px;
   display: block;
-  margin-left: auto;
-  margin-right: auto;
 }
